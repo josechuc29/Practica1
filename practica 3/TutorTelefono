@@ -1,0 +1,13 @@
+public class TutorTelefono {
+    public String pais, lada, numero, numDeTelefono;
+
+	public Telefono(){
+    this.pais = "+52";
+    this.lada = "981";
+    this.numero = "1171761";
+    this.numDeTelefono = pais.concat(" "+lada+numero);
+    }
+    public String toString(){
+        return numDeTelefono;
+    }
+}
